@@ -213,8 +213,6 @@ i.fa.fa-phone.fa-4x {
     font-size: x-large;
 }
 
-/* Conocenos estilos */
-
 .mision_parteuno{
 
     background: url(../img/fondo-blanco.png);
@@ -226,37 +224,6 @@ i.fa.fa-phone.fa-4x {
     background: url(../img/fondo-azul.png);
     background-size: cover;
 }
-
-.conocenos-galeria{
-
-    color: white;
-    background-color: #002945;
-}
-
-#desc-galeria{
-
-    color: white;
-}
-
-.comolohacemos{
-
-    background-color: #002945;
-    color: white;
-}
-
-.quienesomos{
-
-    margin-bottom: 120px;
-}
-
-.collage{
-
-    margin-top: -70px;
-    margin-bottom: 50px;
-    width: 60%;
-}
-
-/* Fin estilos conocenos */
 
 
 body {
