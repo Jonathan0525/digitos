@@ -226,17 +226,79 @@ i.fa.fa-phone.fa-4x {
     font-size: x-large;
 }
 
+/* Conocenos estilos */
+
 .mision_parteuno{
 
     background: url(../img/fondo-blanco.png);
     background-size: cover;
+    text-align: justify;
+
+}
+
+.mision_parteuno div .row{
+
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+
+.mision_partedos div .row{
+
+    margin-bottom: 70px;
+    margin-top: 70px;
+
 }
 
 .mision_partedos{
 
     background: url(../img/fondo-azul.png);
     background-size: cover;
+    color: white;
+    text-align: justify;
+    
 }
+
+.conocenos-galeria{
+
+    color: white;
+    background-color: #002945;
+}
+
+#desc-galeria{
+
+    color: white;
+    margin-left: 10px;
+}
+
+.comolohacemos{
+
+    background-color: #002945;
+    color: white;
+}
+
+.quienesomos{
+
+    margin-bottom: 120px;
+}
+
+.collage{
+
+    margin-top: -70px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+.thumbnail{
+
+    padding: 0px !important;
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+
+
+/* Fin estilos conocenos */
 
 
 body {
