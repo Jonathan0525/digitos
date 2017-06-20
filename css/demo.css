@@ -21,6 +21,10 @@
     width: 960px;
     max-width: 100%;
 }
+.container.ambiental_content {
+    background: white;
+    margin-bottom: 10px;
+}
 html{
 
     overflow-x: hidden;
