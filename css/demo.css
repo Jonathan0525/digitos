@@ -12,6 +12,15 @@
 
 /* Styles Form */
 
+.container-fluid.seccion_tres.ambiental {
+    background: #f3f3f3;
+}
+.ambiental_img {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 960px;
+    max-width: 100%;
+}
 html{
 
     overflow-x: hidden;
