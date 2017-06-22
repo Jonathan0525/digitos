@@ -768,6 +768,7 @@ ul.nav.navbar-nav li {
     background: rgba(255, 0, 0, 0);
     height: 100%;
     position: relative;
+    margin-left: 30px;
     display: block;
     text-align: center;
 }
