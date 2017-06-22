@@ -46,7 +46,7 @@
   
   <header>
   <!-- top bar -->
-  <a href="tel://0312017099" class="hidden visible-xs llamar"><i class="fa fa-phone fa-4x" aria-hidden="true"></i></a>
+  <a href="tel://0312017110" class="hidden visible-xs llamar"><i class="fa fa-phone fa-4x" aria-hidden="true"></i></a>
   <nav class="navbar navbar-inverse">
     <div class="container menu-header">
       <div class="navbar-header">
@@ -94,17 +94,50 @@
   
   <div class="row seccion_form">
 
-          <div class="col-lg-2 col-sm-1 col-xs-1"></div>
+            <!-- Parte uno contactenos -->
 
-          <div class="col-lg-8 col-sm-10 col-xs-10">
+             <div class="row">
+
+            <div class="col-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+
+            <div class="col-lg-8 col-md-10 col-sm-10 col-xs-10">
+
+            <img src="img/Layout_contactenos_03.png" alt="Contáctanos" name="digitos y diseños" class="img-responsive" /><br>
+
+                  <p class="text-justify dejanos">Déjanos tu mensaje, cuéntanos qué necesitas. Para nosotros será un placer 
+atender tus solicitudes y poner a tu servicio nuestra experiencia.</p>
+
+          </div>
+          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+
+          </div>
+          <br>
+
+          <!-- Parte dos contactenos -->
+
+                    
+          <div class="row">
+
+          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+
+          <div class="col-lg-4 col-md-5 hidden-sm hidden-xs text-center vcenter comp-contact">
+            
+          <i class="fa fa-phone-square" aria-hidden="true"></i><br>
+          <h3>Recuerda que también puedes
+comunicarte a nuestro PBX</h3><h1><strong>201 7110</strong></h1>  
+
+
+          </div>
+
+          <div class="col-lg-4 col-md-5 col-xs-10">
+
 
           <div class="container-fluid seccion_form">
 
             <div class="container-fluid img_contactanos">
                 <div class="container">
 
-                  <img src="img/Layout_contactenos_03.png" alt="Contáctanos" name="digitos y diseños" class="img-responsive hidden-xs" /> 
-                  
+                                  
                 </div>
               </div>
 
@@ -113,17 +146,12 @@
               <form action="enviar.php" id="formOk" onsubmit="return validar();" method="post">
 
                   <div class="form-group" id="valor_nombre">
-                    <label for="usr">Nombre*</label>
+                    <label for="usr">Tu Nombre*</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" onblur="revisarobligatorionom(this)">
                     <div id="adv-nom"></div>
                   </div>
 
-                  <div class="form-group" id="valor_apellido">
-                    <label for="usr">Apellido*</label>
-                    <input type="text" class="form-control" id="apellido" name="apellido" onblur="revisarobligatorioape(this)">
-                    <div id="adv-ape"></div>
-                  </div>
-
+                 
                     <div class="form-group" id="valor_email">
                         <label for="email">E-mail*</label>
                         <input type="email" class="form-control" id="email" name="email" onblur="revisarobligatorioema(this);">
@@ -140,12 +168,19 @@
                       <label for="comment">Mensaje*</label>
                       <textarea class="form-control" rows="5" id="comentario" name="mensaje" onblur="revisarobligatoriomen(this)"></textarea><br>
                       <!-- Captcha -->
+                      <div class="img-responsive">
                       <div class="g-recaptcha" data-sitekey="6Lf-giUUAAAAAItLtYPPvhkGIjkx6o8R7ioDzVFk"></div>
+                      </div>
 
                       <div id="adv-men"></div>
                     </div>
                     <div id="valiFinal"></div>
-                    <button type="submit" id="enviar" class="btn btn-default">Enviar</button>
+
+                    <div class="text-center">
+
+                      <button type="submit" id="enviar" class="btn btn-default btnenviar">Enviar</button>
+                      
+                    </div>
 
                 </form>
 
@@ -155,7 +190,8 @@
 
           </div>
 
-          <div class="col-lg-2 col-sm-1 col-xs-1"></div>
+          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+      </div>
 
   </div>
 

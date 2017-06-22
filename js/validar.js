@@ -27,7 +27,7 @@
   }
 
 
-    function revisarobligatorioape(elemento){
+   /* function revisarobligatorioape(elemento){
 
       if(elemento.value==''){
 
@@ -49,7 +49,7 @@
 
             }
           
-    }
+    }*/
 
     function revisarobligatorioema(elemento){
 
@@ -127,7 +127,7 @@
 
 function validar(){
 
-    if (validadonom == true && validadoape == true && validadotel == true && validadoema == true && validadomen == true) {
+    if (validadonom == true && validadotel == true && validadoema == true && validadomen == true) {
 
               $.ajax({
               type: 'POST',
