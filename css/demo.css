@@ -296,9 +296,20 @@ i.fa.fa-phone.fa-4x {
     border: 0px !important;
 }
 
+.onetoone{
+
+    margin-top: 50px;
+}
 
 
 /* Fin estilos conocenos */
+
+/* Estilo onetoone */
+
+.redonde{
+
+    border-radius: 20px;
+}
 
 
 body {
