@@ -694,15 +694,15 @@ body {
 }
 .info_sec_dos {
     background: rgba(12, 20, 31, 0.56);
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
-    margin-top: 9px;
+    margin-top: 5px;
     color: #fff;
     width: 90%;
 }
 
 .header_sec_dos {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .seccion_dos {
     position: relative;
