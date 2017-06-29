@@ -1351,6 +1351,11 @@ body #cdawrap:hover #cda-remove {
 /*MEDIUM*/
 /*SMALL*/
 @media (min-width: 501px) and (max-width: 768px) {
+    .container.menu-header {
+    display: block !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
     .items_sec_uno.rigidos {
     flex-direction: column !important;
 }
@@ -1425,6 +1430,11 @@ body #cdawrap:hover #cda-remove {
 /*SMALL*/
 /*EXTRA SMALL*/
 @media (min-width: 1px) and (max-width: 500px) {
+    .container.menu-header {
+    display: block !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
     .titulo_ambiental {
     display: flex;
     margin-top: 20px;
