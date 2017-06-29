@@ -442,6 +442,30 @@ i.fa.fa-phone.fa-4x {
 
 /* Conocenos estilos */
 
+.onetoone-galeria{
+
+    background-color: #F3F3F3;
+    border: 0px solid #fff !important;
+
+}
+
+.onetoone-galeria .container .table-responsive{
+
+    border: 0px solid #fff !important;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.onetoone-galeria .container .table-responsive p{
+
+   font-size: 20px;
+}
+
+.onetoone-galeria .container .table-responsive #desc-galeria{
+
+    color: black;
+}
+
 .mision_parteuno{
 
     background: url(../img/fondo-blanco.png);

@@ -32,7 +32,22 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" type="text/css" href="efectogaleria/css/style6.css">
+
+
+<!-- Boostrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Necesarios Galeria conocenos -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> 
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
+
+<!-- Termina necesarios conocenos -->
+
 
 </head>
 <body class="demo-1">
@@ -78,7 +93,7 @@
      <!--seccion1-->
     <div class="container-fluid seccion_uno rigidos">
       <div class="container">
-        <div class="header_sec_uno"> <img src="img/titulo_servicios_rigidos.png" class="img-responsive" alt="titulo servicios"/>
+        <div class="header_sec_uno"> <img src="img/onetoone/Layout_Servicios_personalizacion_03.png" id="servione" class="img-responsive" alt="titulo servicios"/>
           <p><strong></strong> </p>
           <span>.</span> </div>
 
@@ -87,7 +102,7 @@
 
 
           <div class="col-sx-12 col-sm-12 col-md-4 col-lg-4"> 
-          <h2><strong>IMPRESIÓN DIITAL</strong> ONE TO ONE</h2>
+          <h2><strong>IMPRESIÓN DIGITAL</strong> ONE TO ONE</h2>
           <p class="p_big">Gracias a nuestro sistema de impresión digital one to one producimos piezas de comunicación efectivas con “data variable”, desde libros contables hasta atractivas piezas gráficas personalizadas para marketing directo.</p>
           </div>
 
@@ -99,7 +114,7 @@
         </div>
 
 
- <div class="margin-top-20 col-sx-1 col-sm-12 col-md-12 col-lg-12 onetoone">
+ <div class="margin-top-20 hidden-xs col-sm-12 col-md-12 col-lg-12 onetoone">
 <!--galeria-->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -143,6 +158,61 @@
       
 
     </div>
+
+
+
+ <div class="container-fluid onetoone-galeria">
+
+    <div class="hidden-sm hidden-md hidden-lg container">
+
+              
+    <div class="table-responsive">
+
+    <p><strong>Experiencia comprobada</strong><br> en diversas líneas de negocio<span>.</span></p>
+
+    <table class="table">
+      <tr>
+
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_01.jpg">
+        <img class="img-responsive" src="img/onetoone/gridproductos_01.jpg" height="451" width="639"></a><div class="description description--grid" id="desc-galeria">Diplomas</div></td>
+        
+      </tr>
+      <tr>
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_02.jpg">
+        <img class="img-responsive" src="img/onetoone/gridproductos_02.jpg" height="451" width="639"></a><div class="description description--grid" id="desc-galeria">Tarjetas, Invitaciones</div></td>
+      </tr>
+      <tr>
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_03.jpg">
+        <img class="img-responsive" src="img/onetoone/gridproductos_03.jpg" height="451" width="708"></a><div class="description description--grid" id="desc-galeria">Sobres</div></td>
+      </tr>
+      <tr>
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_04.png">
+        <img class="img-responsive" src="img/onetoone/gridproductos_04.png" height="451" width="641"></a><div class="description description--grid" id="desc-galeria">Marqueting Directo</div></td>
+      </tr>
+
+      <tr>
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_05.jpg">
+        <img class="img-responsive" src="img/onetoone/gridproductos_05.jpg" height="451" width="649"></a><div class="description description--grid" id="desc-galeria">Informes Contables</div></td>
+      </tr>
+
+      <tr>
+        <td>
+        <a class="thumbnail fancybox" rel="ligthbox" href="img/onetoone/gridproductos_06.jpg">
+        <img class="img-responsive" src="img/onetoone/gridproductos_06.jpg" height="451" width="625"></a><div class="description description--grid" id="desc-galeria">Facturas, Estado de Pago</div></td>
+      </tr>
+              
+  </table>
+
+  </div>
+  </div>
+  </div>
+
+
 
 
  <!--seccion2-->
@@ -325,12 +395,12 @@ TEL. 885 1333</p>
     </div>
   </div>
 </div>
-<script src="js/classie.js"></script> 
+<!--<script src="js/classie.js"></script> 
 <script src="js/pathLoader.js"></script> 
 <script src="js/main.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> 
-<script type="text/javascript" src="bootstrap/js/npm.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/npm.js"></script>--> 
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -346,10 +416,24 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 
+<!-- Script Galería -->
+
+<script type="text/javascript">
+
+   var $= jQuery.noConflict();
+
+  $(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+
+</script>
+
+<!-- Termina Script -->
 </body>
 </html>
-<script src="efectogaleria/js/imagesloaded.pkgd.min.js"></script>
-  <script src="efectogaleria/js/masonry.pkgd.min.js"></script>
-  <script src="efectogaleria/js/classie.js"></script>
-  <script src="efectogaleria/js/main.js"></script>
   
