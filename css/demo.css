@@ -332,6 +332,11 @@ a.hidden.visible-xs.llamar:hover {
 .container-fluid.seccion_uno.rigidos {
     background: #fff;
 }
+
+.container-fluid.seccion_uno.servicios{
+
+    background: #f9f9f9;
+}
 span.glyphicon.glyphicon-envelope {
     padding: 10px;
     font-size: 21px;
@@ -799,6 +804,14 @@ body {
     padding: 30px 0px;
     color: #4d4d4d;
     
+}
+
+div#banerdo{
+
+    text-align: center !important;
+    text-align: -moz-center !important;
+    text-align: -webkit-center !important;
+
 }
 
 .header_sec_uno p {

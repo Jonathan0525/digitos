@@ -13,7 +13,7 @@ $telefono= $_POST['telefono'];
 $mensaje= $_POST['mensaje'];
 
 
-$to = "camiloguio@gmail.com, gerencia@digitosydisenos.com.co, coordinadorc@digitosydisenos.com.co";
+$to = "gerencia@digitosydisenos.com.co, coordinadorc@digitosydisenos.com.co";
 	    
 	      $msg .= "Nombre: " . $nombre . "\n";
 	      $msg .= "Apellido: " . $apellido . "\n";
